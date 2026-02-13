@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/output.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+</head>
+<body class="font-main bg-rose-50 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+  <main class="p-6 min-[795px]:p-20 min-[795px]:flex min-[795px]:flex-col min-[795px]:items-center min-[1100px]:flex-row min-[1100px]:gap-8 min-[1100px]:items-start min-[1100px]:flex min-[1440px]:grid min-[1440px]:grid-cols-[1fr_450px]">
+    <section class="">
+      <h1 class="text-[40px] font-bold text-Rose-900">Desserts</h1>
+      <div class="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-4 max-w-195.5 min-[1440px]:max-w-none min-[1440px]:w-full">
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+        <div class="card mt-4">
+          <div class=" relative mb-8">
+            <img class="menuImg rounded-lg" src="" alt="">
+            <div class="cartButton flex border-2 font-semibold items-center rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white text-Rose-900 border-Rose-400 w-44">
+              <button type="button" class="add flex items-center p-2 pr-6 pl-6 gap-2 cursor-pointer rounded-full">
+                <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                <p class="hover:text-Red">Add to Cart</p>
+              </button>
+              <svg class="hover:text-Red minus hidden mr-auto p-1 pt-2 pb-2 text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 2">
+                <path fill="currentColor" d="M0 .375h10v1.25H0V.375Z"/>
+              </svg>
+              <span class="value hidden"></span>
+              <svg class="hover:text-Red plus hidden p-1 ml-auto text-2xl border cursor-pointer rounded-full hover:bg-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 10 10">
+                <path fill="currentColor" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="menuCategory text-[14px] text-Rose-400">Waffle</p>
+          <p class="menuName font-semibold text-Rose-900"></p>
+          <p class="menuPrice font-semibold text-Red">6.50</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="carts" class="bg-white mt-10 p-6 text-[14px] rounded-lg pb-1 min-[795px]:min-w-195.5 min-[1100px]:min-w-0 min-[1100px]:grow min-[1100px]:mt-0 min-[1440px]:max-w-132.5">
+      <h1 id="totalItem" class="text-2xl font-bold mb-4 text-Red">Your Cart (0)</h1>
+      
+      <!--? Order Display -->
+      <section class="displayOrder hidden mt-8">
+        <div id="totalItemPrice" class="flex items-center">
+          <p class="text-Rose-900">Order Total</p>
+          <h2 class="ml-auto text-Rose-900 text-2xl font-black"></h2>
+        </div>
+        <article class="flex justify-center gap-2 p-3 mt-8 mb-4 rounded-md bg-Rose-50">
+          <img src="/assets/images/icon-carbon-neutral.svg" alt="">
+          <p class="text-Rose-900">This is a <span class="font-semibold">carbon-neutral</span> delivery</p>
+        </article>
+        <button class="confirm bg-Red cursor-pointer text-white text-[16px] font-semibold  rounded-full w-full p-3 hover:brightness-75" type="submit">Confirm Order</button>
+      </section>
+
+      <!--? Empety Display -->
+      <section class="displayEmpty flex flex-col justify-center">
+        <img class="h-35" src="/assets/images/illustration-empty-cart.svg" alt="">
+        <p class="text-center font-semibold text-Rose-500 mt-4 mb-8">Your added items will appear here</p>
+      </section>
+
+    </section>
+  </main>
+
+  <!--! mobile sama desktop punya display yang berbeda  -->
+  <section class="popupConfirm hidden fixed inset-0 z-10 w-screen h-screen min-[795px]:hidden min-[795px]:justify-center min-[795px]:items-center">
+    <div class="absolute h-screen w-screen bg-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50"></div>
+    <form action="" class="w-full h-[90%] bg-white border-t-12 border-white absolute bottom-0 rounded-t-xl p-4 pt-12 overflow-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden min-[795px]:w-150 min-[795px]:h-fit min-[795px]:static min-[795px]:z-20 min-[795px]:rounded-xl min-[795px]:p-10">
+      <img src="/assets/images/icon-order-confirmed.svg" alt="">
+      <h1 class="text-[40px] font-bold text-Rose-900 leading-12 mt-6">Order Confirmed</h1>
+      <p class="mt-3 text-Rose-500 mb-10">We hope you enjoy your food!</p>
+      <div id="orderItem" class="p-6 pt-0 bg-Rose-50 rounded-lg">
+
+      </div>
+      <button type="submit" class="bg-Red mt-8 cursor-pointer text-white text-[16px] rounded-full w-full p-3 hover:brightness-75">Start New Order</button>
+    </form>
+  </section>
+</body>
+<script src="script.js"></script>
+</html>
