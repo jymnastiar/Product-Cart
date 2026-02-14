@@ -1,6 +1,17 @@
 [
     {
         "image": {
+            "thumbnail": "./assets/images/image-kentanq-putih-thumbnail.jpg",
+            "mobile": "./assets/images/image-kentanq-putih-mobile.jpg",
+            "tablet": "./assets/images/image-kentanq-putih-tablet.jpg",
+            "desktop": "./assets/images/image-kentanq-putih-desktop.jpg"
+        },
+        "name": "KentanQ Saus Kental Putih",
+        "category": "Kentanq",
+        "price": 0.01
+    },
+    {
+        "image": {
             "thumbnail": "./assets/images/image-cumi-hitam-thumbnail.jpg",
             "mobile": "./assets/images/image-cumi-hitam-mobile.jpg",
             "tablet": "./assets/images/image-cumi-hitam-tablet.jpg",
